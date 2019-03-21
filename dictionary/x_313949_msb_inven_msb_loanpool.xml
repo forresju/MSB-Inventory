@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="MSB Loanpool" max_length="40" name="x_313949_msb_inven_msb_loanpool" type="collection">
+        <element attributes="import_attribute_name=Acquisition Cost" label="Acquisition Cost" max_length="15" name="u_acquisition_cost" type="decimal"/>
+        <element attributes="import_attribute_name=Acquisition Date" label="Acquisition Date" max_length="40" name="u_acquisition_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Branch,edge_encryption_enabled=true" label="Branch" max_length="40" name="u_branch" type="string"/>
+        <element attributes="import_attribute_name=Building,edge_encryption_enabled=true" label="Building" max_length="40" name="u_building" type="string"/>
+        <element attributes="import_attribute_name=Comments,edge_encryption_enabled=true" label="Comments" max_length="314" name="u_comments" type="string"/>
+        <element attributes="import_attribute_name=ECN,edge_encryption_enabled=true" label="ECN" max_length="40" name="u_ecn" type="string"/>
+        <element attributes="import_attribute_name=End User Name,edge_encryption_enabled=true" label="End User Name" max_length="40" name="u_end_user_name" type="string"/>
+        <element attributes="import_attribute_name=Item Name,edge_encryption_enabled=true" label="Item Name" max_length="40" name="u_item_name" type="string"/>
+        <element attributes="import_attribute_name=Manufacturer,edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=Model Number,edge_encryption_enabled=true" label="Model Number" max_length="40" name="u_model_number" type="string"/>
+        <element attributes="import_attribute_name=P,edge_encryption_enabled=true" label="P" max_length="40" name="u_p" type="string"/>
+        <element attributes="import_attribute_name=Replacement Cost" label="Replacement Cost" max_length="15" name="u_replacement_cost" type="decimal"/>
+        <element attributes="import_attribute_name=Replacement Year,edge_encryption_enabled=true" label="Replacement Year" max_length="40" name="u_replacement_year" type="string"/>
+        <element attributes="import_attribute_name=Room,edge_encryption_enabled=true" label="Room" max_length="40" name="u_room" type="string"/>
+        <element attributes="import_attribute_name=Warranty Begin Date,edge_encryption_enabled=true" label="Warranty Begin Date" max_length="40" name="u_warranty_begin_date" type="string"/>
+        <element attributes="import_attribute_name=Warranty End Date,edge_encryption_enabled=true" label="Warranty End Date" max_length="40" name="u_warranty_end_date" type="string"/>
+        <element attributes="import_attribute_name=Year Manufactured,edge_encryption_enabled=true" label="Year Manufactured" max_length="40" name="u_year_manufactured" type="string"/>
+    </element>
+</database>

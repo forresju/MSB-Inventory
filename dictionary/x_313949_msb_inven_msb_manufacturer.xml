@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="MSB Manufacturer" max_length="40" name="x_313949_msb_inven_msb_manufacturer" type="collection">
+        <element display="true" label="Manufacturer" max_length="100" name="u_manufacturer" type="string"/>
+        <index name="index">
+            <element name="u_manufacturer"/>
+        </index>
+    </element>
+</database>

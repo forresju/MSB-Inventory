@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="MSB Inventory" max_length="40" name="x_313949_msb_inven_msb_inventory" sizeclass="253" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Serial Number MSB" max_length="10" name="seriel_number" type="string"/>
+        <element attributes="omit_sys_original=true" default="0" label="Acquisition Cost" max_length="20" name="u_acquisition_cost" type="currency"/>
+        <element label="Acquisition Date" max_length="40" name="u_acquisition_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="MSB Branch" max_length="40" name="u_branch" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AV Loanpool" sequence="0" value="AV Loanpool"/>
+                <element inactive_on_update="false" label="Photography" sequence="0" value="photography"/>
+                <element inactive_on_update="false" label="Video" sequence="1" value="video"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="End User" max_length="32" name="u_end_user" reference="sys_user" type="reference"/>
+        <element label="Warranty_Start_Date" max_length="40" name="u_glide_date_10" type="glide_date"/>
+        <element label="Year Manufactured" max_length="40" name="u_glide_date_11" type="glide_date"/>
+        <element label="Item Name" max_length="32" name="u_item_name" reference="x_313949_msb_inven_msb_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
+        <element label="Manufacturer" max_length="32" name="u_manufacturer" reference="x_313949_msb_inven_msb_manufacturer" type="reference"/>
+        <element attributes="omit_sys_original=true" default="0" label="Replacement Cost" max_length="20" name="u_replacement_cost" type="currency"/>
+        <element label="Replacement Year" max_length="40" name="u_replacement_year" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Number" max_length="50" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Replacement Year MSB" max_length="40" name="u_string_2" type="string"/>
+        <element label="Warranty End Date" max_length="40" name="u_warranty_end_date" type="glide_date"/>
+        <element label="Warranty Start Date" max_length="40" name="u_warranty_start_date" type="glide_date"/>
+    </element>
+</database>

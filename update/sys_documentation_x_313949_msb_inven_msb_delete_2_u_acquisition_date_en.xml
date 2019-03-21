@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_acquisition_date" label="Acquisition Date" language="en" table="x_313949_msb_inven_msb_delete_2">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_acquisition_date</element>
+            <help/>
+            <hint/>
+            <label>Acquisition Date</label>
+            <language>en</language>
+            <name>x_313949_msb_inven_msb_delete_2</name>
+            <plural>Acquisition Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-08 15:25:08</sys_created_on>
+            <sys_id>f0328f71db40330050c585184b96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Acquisition Date</sys_name>
+            <sys_package display_value="MSB Inventory" source="x_313949_msb_inven">54074b8bdb33630050c585184b9619b1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MSB Inventory">54074b8bdb33630050c585184b9619b1</sys_scope>
+            <sys_update_name>sys_documentation_x_313949_msb_inven_msb_delete_2_u_acquisition_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-08 15:25:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
